@@ -1,0 +1,84 @@
+:root{
+    --color-sombreado: #D5C7A3;
+    --color-principal: #F2E2B1;
+    --color-click-boton: #273F4F;
+    --color-teclado: #273F4F;
+    --color-fondo: #F6F0F0;
+    --color-sombra-boton-1: #00000040;
+    --color-sombra-boton-2: #00ffc11f;
+    --color-pantalla-calculadora: #BDB395;
+    --color-pantalla-borde-calculadora: #F8F8E1;
+}
+
+*{
+    font-family: 'Fraunces', serif;
+    color: var(--color-teclado);
+}
+
+body{
+    margin: 0;
+    background-color: var(--color-fondo);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: var(--color-principal);
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px var(--color-sombreado);
+}
+
+button{
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color:var(--color-principal);
+    box-shadow: 5px 5px 10px -3px var(--color-sombra-boton-1), -5px -5px 15px 3px var(--color-sombra-boton-2) ;
+}
+
+button:active{
+    background-color: var(--color-click-boton);
+}
+
+button:focus{
+    outline: none;
+}
+
+.col-2{
+    grid-column: span 2;
+}
+
+.display{
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: end;
+    background-color: var(--color-pantalla-calculadora);
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px var(--color-pantalla-borde-calculadora);
+}
+
+#valor-actual{
+    font-size: 1.5em;
+}
+
+#valor-anterior{
+    font-size: 2em;
+}
