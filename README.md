@@ -4,8 +4,7 @@ Este proyecto es una calculadora simple desarrollada utilizando **HTML**, **CSS*
 
 ## 🌐 Demo
 
-👉 [Ver la calculadora en acción](https://tu-url-del-proyecto.com)  
-_(Reemplaza esta URL con el enlace real de tu proyecto desplegado)_
+👉 [Ver la calculadora en acción](https://gutierrezcesar.github.io/Calculadora/)  
 
 ## 📌 Características
 
