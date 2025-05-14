@@ -22,8 +22,8 @@ _(Reemplaza esta URL con el enlace real de tu proyecto desplegado)_
 
 ## 🖼️ Captura de pantalla
 
-![Captura de la calculadora]![alt text](image.png)
-_(Puedes añadir una imagen de tu proyecto si lo deseas)_
+![alt text](image.png)
+
 
 ## 🚀 Cómo usar
 
